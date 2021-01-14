@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+      <title>GOURMET Restaurant</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href="css/res.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="js/javascript.js"></script>
+    </head>
+
+    <body>
+        <header class = "panner">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <a class="navbar-brand" href="#" id="firstNav">Gourmet</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
+                    <li class="nav-item ">
+                      <a class="nav-link active abc" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown" >
+                        <a class="nav-link dropdown-toggle" href="#"   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Menu
+                        </a>
+                        <div class="dropdown-menu" >
+                          <a class="dropdown-item " href="food.html">Dinner Food</a>
+                          <a class="dropdown-item" href="desserts.html">Desserts</a>
+                          <a class="dropdown-item" href="drinks.html">Drinks</a>
+                        </div>
+                      </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                      </li>
+                    
+                  </ul>
+                  
+                </div>
+              </nav>
+              <div class="txtImg">
+            <h1 >Eat, drinks at Gourmet</h1>
+              </div>
+      
+        </header>
+
+        <section class="chef row"> 
+          
+            <img src="images/person_1.jpg" alt="Chef" class = "col-md-4">
+            
+            <!-- <div class="col-md-1"></div> -->
+            <div class="txt col-md-6">
+                <hr class = "line">
+                
+            <h2 id="STORY">Our Restaurant</h2>
+            <p>
+              “At GOURMET, we wish to offer our personal rendition of Nordic gourmet cuisine with an innovative gastronomic take on traditional cooking methods, fine Nordic produce and the legacy of our shared food heritage. Moreover, we regard it as a personal challenge to help bring about a revival 
+              of Nordic cuisine and let its distinctive flavours and particular regional character brighten up the world.”
+          </p>  
+            </div>
+        
+        </section>
+        <div class="stopFloat"></div>
+        <div class="slides">
+        </div>
+
+        <!--NEW DISHES-->
+
+        <section class = "new-dishes">
+          <hr class = "line">
+          <h2 >Recent Dishes</h2>
+          <div class="container">
+          <div class="dish col-md-3">
+            <img src="images/dishes_1.jpg" alt = "dishes_1">
+            <div class="text">
+              <p>$11.50 <br> <br> Organic tomato salad,<br> gorgonzola cheese, capers</p>
+          </div>
+        </div>
+        <div class="dish col-md-3">
+          <img src="images/dishes_2.jpg" alt = "dishes_2">
+            <div class="text">
+              <p id="price2">$12.00<br> <br> Baked broccoli</p>
+          </div>
+        </div>
+        <div class="dish col-md-3">
+          <img src="images/dishes_4.jpg" alt = "dishes_4">
+            <div class="text">
+            <p id = "price3">$15.00 <br> <br> Eggplant parmigiana</p>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <div class="slides">
+        </div>
+
+        <!--REVIEWS FROM CUSTOMERS-->
+        <section class = "reviews" >
+        <hr class = "line">
+        <h2>Social Media Reviews</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active" id="item1">
+              <img src="images/feedback1.png" alt="First slide">
+            </div>
+      
+            <div class="item" >
+              <img src="images/feedback2.png" alt="Second slide">
+            </div>
+          
+            <div class="item">
+              <img src="images/feedback3.png" alt="Third slide">
+            </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+      
+        <!--FOOTER-->
+
+        <footer class ="footer">
+          <div class = "row">
+          <div class="GOURMET col-md-3">
+            <h5>GOURMET</h5>
+            <p>“Stiff drinks, hearty food and a convivial place to gather and debate the news of the day.”</p>
+            <div class = "icons">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+            </div>
+          </div>
+         
+
+          <div class = "opening  col-md-3">
+            <h5>Opening hours</h5>
+            <p>Sunday-Thursday <br> 8AM - 10PM</p>
+            <p>Friday <br> 2PM - 12AM</p>
+            <p>Saturday <br> 10AM - 10PM</p>
+          </div>
+          <div class = "info  col-md-3">
+            <h5>Contact info</h5>
+            <h6>Address</h6>
+            <p>34 Street Name, City Name Here, United States</p>
+            <hr>
+            <h6>phone</h6>
+            <p>+1 242 4942 290</p>
+            <hr>
+            <h6>Email</h6>
+            <p>info@yourdomain.com</p>
+            <hr>
+          </div>
+        </div>
+          <p id = "end">Copyright ©2020 All rights reserved | This template is made with  by Colorlib</p>
+
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>
