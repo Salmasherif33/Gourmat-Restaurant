@@ -1,0 +1,839 @@
+html{overflow-x:hidden}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.5rem;
+    
+}
+nav.bg-dark.orange{
+    background: #ff7404 !important;
+    color: black !important;
+    transition: 1s;
+    
+}
+
+
+header .txtImg{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: white;  
+}
+.txtImg h1{
+    font-size: 40px;
+}
+header {
+      width: 100%;
+      height: 100vh;
+      background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/res1.jpg') no-repeat 30% 15%;
+      background-size: cover;
+      background-position: center;
+}
+
+.bg-dark{
+    position: fixed;
+    font-weight: bold;
+    justify-content: stretch;
+    width: 100%;
+    transition: 1s;
+    background: black !important;
+    /* overflow: hidden; */
+    z-index: 300;
+}
+.navbar-toggler{
+    margin-left: 35%;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+}
+nav ul{
+    text-align: center;
+    line-height: 40px;
+  
+    
+}
+.dropdown-menu{
+    background-color: white !important;
+}
+nav ul a{
+    color: rgba(255, 255, 255, 1) !important;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+.nav-link.active{
+    color: #ff7404 !important;
+}
+.dropdown-item.active{
+    background-color: #ff7404 !important;
+}
+.abc.scroll {
+    color: black !important;
+} 
+ a.dropdown-item{
+     color: black !important;
+     /* margin-top: 3%; */
+     overflow: hidden;
+ }
+a.dropdown-item:hover{
+    background-color: #ff7404 !important;
+}
+
+
+
+.chef{
+    height: auto;
+}
+.chef img{
+    width: 80%;
+    height: 40%;
+    margin: 0% 10%;
+    margin-top: 10%;
+}
+.chef hr{
+    margin-top: 10%;
+}
+.chef h2{
+    color: black;
+    font-weight: 700;
+    margin: 5% 0%;
+    font-size: 4rem;
+}
+.chef p{
+    margin-bottom: 20%;
+    font-size: 2rem;
+}
+.line{
+    width:100px;
+    height: 2px;
+    background-color : #ff7404;
+    margin: 0 auto;
+    
+}
+
+.txt{
+    
+    text-align: center;
+   padding:0 8%;
+    color: #838485;
+}
+.stopFloat{
+    clear: both;
+}
+.slides{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/image_6.jpg');
+    background-size: 100% 100%; /*same as cover*/
+    background-repeat: no-repeat;
+    margin-top: 1px;
+    height: 400px;
+    background-attachment: fixed; /*the image doesn't scroll withe the text*/    
+}
+ .new-dishes{
+     height: auto;
+    
+ }
+ .new-dishes .line{
+     margin: 0 auto;
+     margin-top: 20%;
+ }
+ .new-dishes h2{
+     font-weight: bold;
+     margin-top: 5%;
+     text-align: center;
+     font-size: 4rem;
+ }
+ .new-dishes .container{
+     margin-top: 10%;
+     margin-bottom: 30%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ .new-dishes .dish{
+    display: block;
+    margin-bottom: 10%;
+    position: relative;
+}
+ .new-dishes img{
+     cursor: pointer;
+     display: block;
+     border-radius: 10%;
+     margin-right: auto;
+     margin-left: auto;
+     width: 70%;
+     height: auto;
+     filter: brightness(50%);
+     transition: 0.3s all ease-out;
+     -moz-transition: 0.3s all ease-out;
+     -o-transition: 0.3s all ease-out;
+     -webkit-transition: 0.3s all ease-out;
+     z-index: 1;
+ }
+ .new-dishes img:hover{
+     transition: 0.3s all ease;
+     -moz-transition: 0.3s all ease;
+     -o-transition: 0.3s all ease;
+     -webkit-transition: 0.3s all ease;
+     transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+     -webkit-transform: scale(1.1);   
+ }
+ .new-dishes .text{
+    border: 1px solid transparent;
+    width: 100%;
+    text-transform: uppercase;
+    position: absolute;
+    top:50%;
+    margin-left: 46%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    font-size: 400%;
+}
+.ourChifs{
+        height: auto;
+}
+.ourChifs .chefs{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+ 
+}
+.ourChifs .chefs img{
+    width: 90%;
+    height: 60%;
+    
+}
+.ourChifs .text{
+    width: 90%;
+    background-color: #dbdbdb;
+   
+}
+.ourChifs .text h5, h6, p{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.ourChifs .chefs h5{
+    margin-top: 0% !important;
+    padding-top: 5%;
+    font-weight: bold;
+}
+.ourChifs .chefs h6{
+    color : #636363
+}
+.ourChifs .chefs p{
+    padding-top: 3%;
+    padding-bottom: 10%;
+    margin-bottom: 10% !important;
+}
+ .footer{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+ }
+ .GOURMET, .opening, .info{
+    margin: 5% 10%;
+    line-height:200% ;
+ }
+ .footer h5{
+     font-weight: bold;
+     margin-top: 3%;
+     margin-bottom: 3%;
+     font-size: 1.2em;
+ }
+ .footer h6{
+     font-size: 1em;
+ }
+ .footer .icons{
+     margin-left: 10%;
+ }
+ .footer .fa {
+    width: 30px;
+    height: 30px;
+    padding-top:3%;
+    border-radius:50%;
+    margin-right: 5%;
+    color:white;
+    background-color: #525252;
+    text-align: center;
+    text-decoration: none;
+  }
+  .footer .icons a:hover{
+      color:white;
+      text-decoration: none;
+  }
+ .info hr{
+     background-color: #525252;
+ }
+#end{
+    margin : 0% 3%;
+    margin-bottom: 5%;
+    color: gray;
+}
+.reviews{
+    border: 1px solid whitesmoke;
+    background-image: url('../images/bg_5.jpg');
+    opacity: 0.7;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.reviews h2{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    color: black;
+    font-size: 3rem;
+    
+}
+.reviews .line{
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+.carousel-indicators li{
+    background-color: #ff7404;
+    }
+
+#myCarousel{
+    margin: 15% 0%;
+}
+.carousel-indicators{
+    position: absolute !important;
+   top: 120%;
+    bottom: 0% !important;
+}
+.reviews ol li.active{
+    background-color: black;
+    margin-right: 5%;
+}
+.reviews li{
+    margin-right: 5%;
+}
+.ourChifs hr{
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.ourChifs h2{
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.ourServices{
+    height: auto;
+}
+.ourServices hr{
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.ourServices h2{
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.ourServices .row{
+    margin-top:10%;
+     margin-left: 5%;
+     text-align: center;
+    margin-bottom: 25%;
+     
+ }
+ .ourServices .row img{
+     width:40%;
+     padding-top: 25%;
+
+    
+ }
+ .ourServices .img{
+     background-color: white;
+     width:55%;
+    height: 50%;
+     border-radius: 50%;
+     margin-left: 20%;
+ }
+ .ourServices .col-md-3{
+     margin-right: 5%;
+ }
+
+ .ourServices h5{
+     font-weight: bold;
+    padding-bottom: 3%;
+ }
+ .ourServices p{
+     margin-bottom: 20%;
+ }
+.contact{
+    height: auto;
+}
+.contact hr{
+    margin-top: 10%;
+}
+.contact h2{
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bold;
+}
+ .contact img{
+     width: 80%;
+     height: 20%;
+     margin:10% 10%;
+ }
+ fieldset {
+    margin-inline-start: 15px;
+    margin-inline-end: 15px;
+    padding-block-start: 1em;
+    padding-inline-start: 1em;
+    padding-inline-end: 1em;
+    padding-block-end: 1em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+}
+legend{
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    color: #f57905;
+    font-weight:bold ;
+    border-bottom: none !important;
+}
+label:not(.gen){
+    font-weight: bold;
+    margin-top:15px ;
+}
+input:not(#female,#male){
+margin-top: 20px !important;
+width:40%;
+line-height: normal;
+padding: 0px;
+overflow: hidden;
+}
+#submit, #tellUs{
+    margin:6% 30%;
+    width: 40%;
+    height: 3em;
+    background-color: #ffffff;
+    border: 1px solid #f57905;
+    color: #000000;
+    font-weight: bold;
+    transition-property: background-color;
+    transition: 0.5s  ease-in;
+    -moz-transition: 0.5s ease-in;
+    -webkit-transition:0.5s ease-in ;
+    -o-transition:0.5s ease-in ;
+}
+#submit:hover, #tellUs:hover{
+    background-color: #f57905;
+    color: white;
+}
+
+.msg{
+    margin-top: 15%;
+}
+.msg input{
+    width: 100%;
+    height: 10em;
+}
+
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     /* display: none; <- Crashes Chrome on hover */
+     -webkit-appearance: none;
+     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+ }
+ #message{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    max-width: 90%;
+ }
+ .food{
+     height: auto;
+     margin-bottom: 15%;
+ }
+ .food hr{
+    margin-top: 10%;
+}
+.food h2{
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.dish-item{
+    display: block;
+    text-align: center;
+}
+figure.img-wrap{
+    text-align: initial;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    float: none;
+    color: black;
+    margin-top:5%;
+    width: 90%;
+    height: 20em;
+    box-shadow: 0 2px 20px rgba(255, 255, 255, 0.5);
+    border-radius: 10%;
+}
+.food .row img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 20em;
+    
+    /* backface-visibility: hidden; */
+}
+.dish-item figcaption{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(173,83 ,3 ,0.7 );
+    transition: all 0.4s ease;
+    opacity: 0;
+    z-index: 1;
+    padding: 10% 10%  ;
+    line-height: 1.3;
+   
+    letter-spacing: 2px;
+}
+.dish-item h4, .img-wrap h3{
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.dish-item p{
+    font-size: 1.2em;
+    margin-bottom: 10%;
+}
+.dish-item:hover figcaption{
+    cursor: pointer;
+    opacity: 1;
+}
+
+@media (min-width:768px){
+    
+    nav.bg-dark.orange {
+        background-color: #ff7404 !important;
+        color: white !important;
+        max-height: 50px;
+        transition: 1s;
+        
+      
+    }
+    .navbar-brand.orange{
+        margin-top: 0px;
+        transition: 1s;
+    }
+    .bg-dark{
+       height: auto;
+        background: none !important;
+    }
+    
+    .navbar-brand{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-left: 30px;
+        position: fixed;
+    }
+    ul.orange{
+        margin-top: 0px !important;
+    }
+    nav ul{
+        transition: 1s;
+        float: right !important;
+        margin-top: 50px !important;
+        margin-right: 5% !important;
+        
+    }
+    nav ul a{
+        margin-right: 0px;
+    }
+    nav ul li {
+        padding:16px 10px;
+    }
+    
+    a.dropdown-item{
+        margin-bottom: 10%;
+    }
+    .txtImg{
+        width: auto;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-40%,-60%);
+    }
+    .txtImg h1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .chef hr{
+        margin: 0;
+    }
+     .chef img{
+        margin: 0;
+        width: 40%;
+        height: 350px;
+        margin-left: 8%;
+        margin-top: 8%;
+        float: left;
+        vertical-align: top;
+    }
+    .chef p{
+        margin-bottom: 30%;
+    }
+    .chef .txt{
+        padding: 0;
+        padding-top:8%;
+        text-align: left;
+        /* line-height: 200%; */
+        margin-left: 3%;
+    }
+    
+    .new-dishes{
+       height: auto;
+       
+    }
+    .new-dishes .line{
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+    .new-dishes .container{
+        margin-top: 5%;
+        margin-bottom: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .new-dishes .dish{
+        display: inline-block;
+        border: 1px solid transparent;
+        position: relative;
+        margin: 0% 3.5%;
+    }
+   
+    .new-dishes h2{
+        margin-top: 2%;
+    }
+    .new-dishes img{
+        width: 100%;
+        height: 80%;    
+    }
+  
+    .new-dishes .text{
+        border: 1px solid transparent;
+        width: 90%;
+        text-transform: uppercase;
+        position: absolute;
+        top:50%;
+        left: 5%;
+        transform: translate( -50%, -50% );
+        text-align: center;
+        color: white;
+
+    }
+    .new-dishes p{
+        font-size: 13px;
+    }
+    #price2{
+        
+        margin-top:-10%;
+    }
+     
+    #price3{
+        margin-top: -10%;
+    } 
+
+    .GOURMET, .opening, .info{
+        padding: 2%;
+        margin: 4%;
+
+        }
+        .footer .icons{
+            width: 80%;
+            margin-left: 5%;
+        }
+         
+         #end{
+             margin-top: -5%;
+             margin-bottom: 5%;
+            text-align: center;
+         }
+         .reviews h2{ 
+            margin-top: 2%;
+        }
+        .reviews .line{
+            margin: 0 auto;
+            margin-top: 6%;
+        }
+        #item1{
+            margin-left: 15%;
+        }
+        #myCarousel{
+            margin-top: 7%;
+        }
+        
+        .ourChifs{
+            height: auto;
+            
+        }
+        .ourChifs .chefs{
+            margin: 5%;
+           
+        }
+        .ourChifs .chefs img{
+            width: 100%;
+            height: 70%;
+            
+        }
+        .ourChifs .text{
+            background-color: #dbdbdb;
+            width: 100%;
+        }
+        .ourChifs .text h5, h6, p{
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        .ourChifs .chefs h5{
+            padding-top: 5%;
+            font-weight: bold;
+        }
+        .ourChifs .chefs h6{
+            color : #636363
+        }
+        .ourChifs .chefs p{
+            padding-top: 3%;
+            padding-bottom: 10%;
+        }
+        .ourServices{
+            height: auto;
+        }
+        .ourServices h2{
+            margin-top: 3%;
+            font-size: 3rem;
+        }
+        .ourServices .row{
+            margin-left: 12%;
+            margin-top: 7%;
+        }
+        .ourServices h5{
+            font-size: 2rem;
+        }
+        .ourServices .row img{
+            padding-top: 100%;
+            width: 80%;
+        }
+        .contact{
+            height: auto;
+        }
+        .contact hr{
+            margin:0 auto;
+            margin-top: 5%;
+        }
+        .contact h2{
+            font-size: 2em;
+            margin-top: 3%;
+        }
+        .contact img{
+            width: 70%;
+            height: 20%;
+            margin: 5% 15%;
+        }
+        .contact.col-md-6{
+            display: inline-block;
+        }
+        .contact.col-md-5{
+            display: inline-block;
+            vertical-align: top;
+        }
+        .msg{
+            margin-top: 0px;
+            margin-left: 5%;
+        }
+        #message{
+            margin-left: 5%;
+        }
+        .food hr{
+            margin:0 auto;
+            margin-top: 8%;
+        }
+        .food .img-wrap{
+            height: 15em;
+        }
+        .food .row img{
+            height: 15em;
+        }
+        .food h2{
+            margin-top: 2%;
+            font-size: 3em;
+            margin-bottom: 5%;
+        }
+        .food h3, .food h4{
+            font-size: 1.3em;
+            
+        }
+        .dish-item p{
+           margin-bottom: 5%;
+        }
+        .dish-item figcaption{
+            padding: 5% 0% 0% 5%;
+        }
+    }
+@media (min-width:1024px){
+     .txtImg{
+         left: 50%;
+        transform: translate(-45%,-50%);
+    } 
+    .chef .txt{
+        line-height: 2.5em;
+       
+    }
+    .chef img{
+        height: 50%;
+    }
+    .new-dishes p{
+        font-size: 20px;
+    }
+    .reviews .item{
+        margin-left: 10%;
+    }
+    #item1{
+        margin-left: 25%;
+    }
+    .food .img-wrap{
+        height: 20em;
+    }
+    .food .row img{
+        height: 20em;
+    }
+    .food h3, .food h4{
+        font-size: 1.8em;
+        
+    }
+    .dish-item p{
+       margin-bottom: 10%;
+    }
+   
+    .dish-item figcaption{
+        padding: 10% 10%;
+    }
+    #message{
+        margin-left: 15%;
+    }
+    .ourServices .row img{
+        padding-top: 10%;
+        width: 60%;
+    }
+}
+    
+    
